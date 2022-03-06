@@ -9,15 +9,15 @@
 
      <div class="whoweare">
             <div class="imgcard">
-                <img src="../assets/images/about us/1.jpg" alt=""> 
+                <img src="#" alt=""> 
                 Manik</div>
             <div class="imgcard">
-              <img src="../assets/images/about us/2.jpg" alt="">
+              <img src="#" alt="">
                 Pratham              
             </div>
           
             <div class="imgcard">
-              <img src="../assets/images/about us/3.jpg" alt="">
+              <img src="#" alt="">
             Shivansh
             </div>
         </div>
