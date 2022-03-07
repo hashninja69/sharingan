@@ -52,7 +52,7 @@ export default{
 <style >
 
 .col a:hover{
-    color: rebeccapurple;
+    color: darkred;
     color: rebeccapurple;
     border-bottom: 1px solid white;
 
