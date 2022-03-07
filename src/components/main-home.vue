@@ -63,8 +63,8 @@
 
 
 <style>
-.showcase{
-  margin-top:45px;
+.showcase {
+  margin-top: 45px;
 }
 .showcase-container {
   background: var(--primary-color);
@@ -82,11 +82,9 @@
 
   margin-left: 28px;
   animation: slideInFromLeft 500ms ease-in;
-
 }
-.showcase-form{
+.showcase-form {
   animation: slideInFromRight 500ms ease-in;
-
 }
 
 .showcase-text h1 {
@@ -222,12 +220,10 @@
 }
 
 @media (max-width: 900px) {
-  
-
   .showcase-text {
     padding: 2px 36px;
     width: 100%;
-    margin:auto;
+    margin: auto;
     margin-top: 175px;
   }
   .showcase-text h1 {
@@ -254,8 +250,44 @@
   }
 
   .feature p {
-       width: 454px;
+    width: 454px;
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .showcase-container {
+    height: 431px;
+  }
+
+  .showcase-form {
+    margin-top: 0px;
+    height: 66px;
+  }
+
+  .showcase-text {
+    margin-top: 30px;
+  }
+  .showcase::before,
+  .showcase::after {
+    top: 395px;
+    height: 49px;
+  }
+
+  .card {
+    margin: 45px auto;
+    width: 283px;
+    box-shadow: 0 3px 10px rgb(0 0 0);
+  }
+  .feature-heading {
+    margin-top: 226px;
+  }
+  .feature p {
+    width: 100%;
+  }
+  .heading {
+    margin: 0 24px;
+    font-size: 22px;
   }
 }
 </style>

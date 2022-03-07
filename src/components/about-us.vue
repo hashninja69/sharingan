@@ -9,16 +9,24 @@
 
      <div class="whoweare">
             <div class="imgcard">
-                <img src="#" alt=""> 
+                <img src="../about us/1.jpg" alt=""> 
                 Manik</div>
             <div class="imgcard">
-              <img src="#" alt="">
+              <img src="../about us/2.jpg" alt="">
                 Pratham              
             </div>
           
             <div class="imgcard">
-              <img src="#" alt="">
+              <img src="../about us/3.jpg" alt="">
             Shivansh
+            </div>
+            <div class="imgcard">
+              <img src="../about us/3.jpg" alt="">
+            Abhishek
+            </div>
+            <div class="imgcard">
+              <img src="../about us/3.jpg" alt="">
+            Sagar
             </div>
         </div>
         
@@ -133,4 +141,25 @@ img
     }
     
 }
+
+@media (max-width: 400px) {
+  .aboutus {
+    margin-top: 30px;
+  }
+  .aboutus_para {
+    width: 100%;
+  }
+  .whoweare {
+    margin: 0px 13px;
+  }
+  .imgcard {
+    width: 195px;
+    height: 270px;
+    margin: 0;
+  }
+  img {
+    height: 100%;
+  }
+}
+
 </style>
